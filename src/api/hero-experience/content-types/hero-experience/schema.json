@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_experiences",
+  "info": {
+    "singularName": "hero-experience",
+    "pluralName": "hero-experiences",
+    "displayName": "HeroExperience"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::hero.hero"
+    }
+  }
+}

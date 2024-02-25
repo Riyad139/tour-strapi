@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "camps",
+  "info": {
+    "singularName": "camp",
+    "pluralName": "camps",
+    "displayName": "camp"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": false,
+      "unique": false
+    },
+    "descriptions": {
+      "type": "richtext",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales, mi non porttitor fermentum, nisi sem molestie erat, id posuere ex dolor eget nisi. Maecenas ut magna id mauris cursus blandit. Nam porta libero eu velit ultrices mattis. Suspendisse potenti. Nunc eget convallis tellus. Suspendisse vulputate, diam sed pharetra consectetur, magna leo maximus est, vitae porttitor velit lorem ac nibh. Aliquam sodales augue eu mi scelerisque, vel efficitur augue consequat.  Nulla dictum, quam nec dapibus lobortis, lectus augue posuere velit, pharetra posuere nulla dolor quis velit. Praesent risus enim, maximus id sem quis, accumsan facilisis neque. Suspendisse pharetra magna et luctus maximus. Nam ut efficitur erat. In faucibus volutpat finibus. Cras a quam id nunc aliquet lobortis ut vel ipsum. In ultrices risus ac pulvinar varius. Aenean efficitur, dolor nec viverra semper, tellus orci placerat nisi, sit amet mollis urna libero vitae eros. Aenean sodales risus sagittis libero molestie, ac dignissim felis aliquam. Nam non finibus ipsum. Cras ut libero convallis, tempor purus non, finibus urna. Praesent ullamcorper, tellus eget cursus pharetra, augue tortor ultricies mauris, quis commodo lorem diam ac diam.  Fusce id turpis sagittis, mattis dolor eu, feugiat risus. Nulla ligula nunc, vulputate sit amet lacinia posuere, tincidunt in lacus. Vivamus viverra quis eros non ullamcorper. Suspendisse maximus sagittis metus sed interdum. Etiam porttitor quam vel blandit consectetur. Integer rhoncus urna in ipsum rhoncus hendrerit. Aliquam vitae arcu auctor, blandit augue eu, fringilla augue. Integer non porttitor nibh. Donec rhoncus ligula tellus, sit amet rhoncus tellus maximus quis. Integer volutpat sapien quis lectus ultricies, sit amet egestas justo porttitor. Aenean ut congue mauris, vel cursus dolor. Aenean arcu tortor, egestas ut aliquam vel, interdum ut arcu. Suspendisse consectetur nulla hendrerit pretium consequat."
+    }
+  }
+}

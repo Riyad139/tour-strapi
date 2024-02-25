@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_blog_article_paragraph_images",
+  "info": {
+    "displayName": "ParagraphImage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "LandScapeImage": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "showImageRight": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}
